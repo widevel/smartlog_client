@@ -1,0 +1,19 @@
+{
+    "name": "widevel/smartlog_client",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "marco iosif constantinescu",
+            "email": "info@widevel.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+        "psr-4": {
+			"Widevel\\SmartlogClient\\": "src/"
+		}
+    },
+    "require": {
+	}
+}
