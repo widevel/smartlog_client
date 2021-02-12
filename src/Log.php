@@ -115,6 +115,6 @@ class Log extends Sender {
 	}
 	
 	private static function generateRandomHash($seed = null) {
-		return hash('sha512', random_bytes(512) . $seed);
+		return hash('sha1', random_bytes(512) . $seed);
 	}
 }
